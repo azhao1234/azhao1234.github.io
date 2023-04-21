@@ -22,7 +22,7 @@ var S = {
     document.body.classList.add('body--ready');
 
     if (i !== -1) {
-      S.UI.simulate(decodeURI(action).substring(i + 1));
+      S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
       S.UI.simulate('|#countdown 3||贵州|天津|山西|山东|等|各地|祝|瑶瑶|美女|生日|快乐|! ! !|');
     }
