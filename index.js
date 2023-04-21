@@ -24,7 +24,7 @@ var S = {
     if (i !== -1) {
       S.UI.simulate(decodeURI(action).substring(i + 3));
     } else {
-      S.UI.simulate('|#countdown 3||天津|贵州|山西|山东|等|各地|祝|瑶瑶|美女|生日|快乐|! ! !|');
+      S.UI.simulate('|#countdown 3||天津|贵州|山西|山东|等|各地|祝|瑶瑶|美女|生日|快乐|! ! !|over|');
     }
 
     S.Drawing.loop(function () {
