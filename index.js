@@ -1,15 +1,12 @@
 
 /*
-
   Shape Shifter
   =============
   A canvas experiment by Kenneth Cachia
   http://www.kennethcachia.com
-
   Updated code
   ------------
   https://github.com/kennethcachia/Shape-Shifter
-
 */
 
 
@@ -376,8 +373,8 @@ S.Dot = function (x, y) {
 
   this.e = 0.07;
   this.s = true;
-
-  this.c = new S.Color(255, 255, 255, this.p.a);
+//*颜色
+  this.c = new S.Color(254, 102, 102, this.p.a);
 
   this.t = this.clone();
   this.q = [];
