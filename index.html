@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>各地发来贺电</title>
+<title>瑶女士生日 各地发来贺电</title>
 
 <style>
 html,body{
@@ -17,20 +17,22 @@ html,body{
 </head>
 <body>
 <canvas id="canvas" style="position:absolute;width:100%;height:100%;z-index:8888"></canvas>
-<canvas style="position:absolute;width:100%;height:100%;z-index:9999" class="canvas" ></canvas>
+<canvas style="position:absolute;width:100%;height:100%;z-index:8888" class="canvas" ></canvas>
 <div class="overlay">
   <div class="tabs">
     <div class="tabs-labels"><span class="tabs-label"></span><span class="tabs-label"></span><span class="tabs-label"></span></div>
-    <p style="text-align:center"><font color="white" size="6">   </font></p>
     <p style="text-align:center"><font color="white" size="6">注意 这不是演习 这不是演习！！！</font></p>
     <p style="text-align:center"><font color="white" size="6">今天是2023年4月22日，齐鲁工业大学（山东省科学院）环工20-2李润瑶过生日了！！！</font></p>
-    <p style="text-align:center"><font color="white" size="6">在此谨代表人们（因为还有个同志不是党员，不能代表党）热烈祝贺瑶女士生日快乐，并希望你与时俱进再接再厉，期盼早日迎接下一次生日的到来！！！</font></p>
+    <p style="text-align:center"><font color="white" size="6">在此谨代表人民（因为还有个同志不是党员，不能代表党）热烈祝贺瑶女士生日快乐，并希望你与时俱进再接再厉，期盼早日迎接下一次生日的到来！！！</font></p>
     <p style="text-align:center"><font color="white" size="6">以下是各地对瑶女士送来的祝福</font></p>
     <div class="tabs-panels">
       <ul class="tabs-panel commands">
       </ul>
     </div>
   </div>
+</div>
+<div style="position:fixed;float:none;float:none;top:0px;margin:auto;z-index:9999">
+<p style="text-align:center;position:fixed; bottom:0px; left:0px;"><font color="white" size="6"><audio id="music1" controls="controls" autoplay="autoplay" preload id="music1"><source src="1.mp3" /></audio></font></p>
 </div>
 <script>
 function initVars(){
@@ -316,11 +318,9 @@ window.addEventListener("resize",()=>{
 	cx=canvas.width/2;
 	cy=canvas.height/2;
 });
-
 initVars();
 frame();
 </script>
 <script src="index.js"></script>
-
 </body>
 </html>
